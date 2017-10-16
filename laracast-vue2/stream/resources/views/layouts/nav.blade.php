@@ -12,6 +12,10 @@
             <router-link tag="li" to="/contact">
                 <a>Contact</a>
             </router-link>
+
+            <router-link tag="li" to="/passport">
+                <a>Passport</a>
+            </router-link>
         </ul>
       </div>
     </nav>

@@ -14,6 +14,11 @@ let routes = [
 	{
 		path: '/contact',
 		component: require('./views/Contact')
+	},
+
+	{
+		path: '/passport',
+		component: require('./views/Passport')
 	}
 ];
 
