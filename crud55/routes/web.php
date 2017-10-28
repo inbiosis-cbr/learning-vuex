@@ -11,13 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/home', function () {
-    return view('home');
-});
+Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/tickets', 'TicketController@index');
 Route::get('/create/ticket', 'TicketController@create');
@@ -25,3 +19,6 @@ Route::get('/edit/ticket/{id}', 'TicketController@edit');
 Route::post('/create/ticket', 'TicketController@store');
 Route::post('/edit/ticket/{id}', 'TicketController@update');
 Route::delete('/delete/ticket/{id}', 'TicketController@destroy');
+
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');

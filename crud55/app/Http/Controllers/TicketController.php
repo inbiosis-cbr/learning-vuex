@@ -82,4 +82,20 @@ class TicketController extends Controller
         $ticket->saveTicket($data);
         return redirect('/home')->with('success', 'New support ticket has been created! Wait sometime to get resolved');
     }
+
+     /**
+     * Destroy the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(Request $request, $id)
+    {
+        $ticket = new Ticket();
+        $data['id'] = $id;
+        $ticket->destroyTicket($data);
+
+        return redirect('/home')->with('success', 'Support ticket ' . $data['id'] . ' has been deleted!!');
+    }
 }
