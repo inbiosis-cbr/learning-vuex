@@ -19,6 +19,9 @@
 ### Vue2
 1. MEVN - MongoDB, Express.js, Vue.js, Node.js (Full stack)
 
+### Deployment
+1. learning.k2inno.com (Demo site deployment)
+
 
 
 
