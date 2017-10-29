@@ -1,3 +1,13 @@
+# Tutorial Details &lt;kkloke86@k2inno.com&gt;
+
+This tutorial is modified based on tutorial at 
+
+- [Ticket System with Laravel 5.5](https://appdividend.com/2017/10/15/laravel-5-5-crud-example-tutorial/)
+
+
+
+# Laravel Default README
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
