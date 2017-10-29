@@ -1,3 +1,13 @@
+# Tutorial Details &lt;kkloke86@k2inno.com&gt;
+
+This tutorial is modified based on tutorial at 
+
+- [Laravel 5.5 Blog CRUD](http://itsolutionstuff.com/post/laravel-55-crud-example-from-scratchexample.html)
+
+
+
+# Laravel Default README
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
